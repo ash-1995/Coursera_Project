@@ -1,0 +1,6 @@
+Business Problem
+
+Chennai is a beautiful city in the southern state of Tamil Nadu, India. Marina beach, Mahapalipuram and many other places attracts a variety of tourists. Along with architecture, history, seashore, the tourist also enjoy the native south indian food. However, due to the gigantic size of Chennai, people might easily miss out some of the "must try" native food. To hellp such tourists and foodie, I am planning to cluster different regions of the city of chennai based on the density of food chains and restaurants.
+
+This way, people would get an idea about the regions/neighbourhoods to check out to feast their taste buds. On top of this, this clustering could also be leveraged by folks who are planning to start food chains/restaurants. They would be able to select "THE PLACE" by understanding the food chain ditribution density across the city. 
+

@@ -1,0 +1,15 @@
+Data Requirement
+
+To make this project a reality, we would need data on the following:
+
+1) Various food chain across the city
+2) Latitude and Longitude of various places in the city
+3) Respective pin code
+4) Data on the ease of commuting 
+
+Details about various food chains across the city, their coordinates and pincode can be obtained using foursquare APIs. Likewise, the details about commuting like the list of railway and bus stations can be 
+obtained from fousquare API.
+
+If the pincode of franchises is not listed in the API output, we can use the publicly available pincode data to get the same.
+
+https://chennaiiq.com/chennai/pincode-by-name.php
