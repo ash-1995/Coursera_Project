@@ -2,14 +2,29 @@ Data Requirement
 
 To make this project a reality, we would need data on the following:
 
-1) Various food chain across the city
+1) List of various food chain across the city
 2) Latitude and Longitude of various places in the city
 3) Respective pin code
 4) Data on the ease of commuting 
 
-Details about various food chains across the city, their coordinates and pincode can be obtained using foursquare APIs. Likewise, the details about commuting like the list of railway and bus stations can be 
-obtained from fousquare API.
+Details about various food chains across the city, their coordinates and pincode can be obtained using foursquare APIs. Likewise, the details about commuting like the list of railway and bus stations can be obtained from fousquare API.
 
-If the pincode of franchises is not listed in the API output, we can use the publicly available pincode data to get the same.
+Here is an example:
+
+'response': {'venues': [{'id': '4fd225e6e4b08315f26a2bf6',
+    'name': 'Noori Fast Food,Periamet',
+    'location': {'lat': 13.083258681924606,
+     'lng': 80.27085673566603,
+     'labeledLatLngs': [{'label': 'display',
+       'lat': 13.083258681924606,
+       'lng': 80.27085673566603}],
+     'distance': 64,
+     'cc': 'IN',
+     'country': 'India',
+     'formattedAddress': ['India']}
+
+In the above response, we have the latitude and longitude values. Using these, we can get the neighbourhood.
+
+We can also use the pinched data available in the below public page for this project
 
 https://chennaiiq.com/chennai/pincode-by-name.php
